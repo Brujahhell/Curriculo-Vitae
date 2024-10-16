@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css" media="screen" />
+    <title>CURRICULUM VITAE</title>
+</head>
+<body class="container">
+<div class="lista">
+    <div class="foto">
+        <img src="sua-foto.jpg" alt="Sua Foto" />
+    </div>
+    <div class="container2">
+        <div class="titulo">
+            DADOS PESSOAIS
+        </div>
+        <div class="titulo2 linha">
+            <img src="CSS/image/homem-usuario.png" alt="icon name" />
+            <div>
+                <div>Nome</div>
+                <div class="espec">
+                    Bruno Netto Soncim
+                </div>
+            </div>
+        </div>
+        <div class="titulo2 linha">
+            <img src="CSS/image/whatsapp.png" alt="icon whatsapp" />
+            <div>
+                <div>Whatsapp</div>
+                <div class="espec">
+                    <a href="https://wa.me/5527981116969" target="_blank">(27)98111-6969</a>
+                </div>
+            </div>
+        </div>
+        <div class="titulo2 linha">
+            <img src="CSS/image/o-email.png" alt="icon email" />
+            <div>
+                <div>E-mail</div>
+                <div class="espec">
+                    <a href="mailto:brunonetto1985@hotmail.com?subject=Assunto&body=Mensagem%20inicial" target="_blank">brunonetto1985@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="titulo2 linha">
+            <img src="CSS/image/linkedin.png" alt="icon linkedin" />
+            <div>
+                <div>Linkedin</div>
+                <div class="espec">
+                    <a href="https://www.linkedin.com/in/bruno-netto-brujahhell/" target="_blank">Bruno Netto</a>
+                </div>
+            </div>
+        </div>
+        <div class="titulo2 linha">
+            <img style="width: 5%" src="CSS/image/github.png" alt="icon github" />
+            <div>
+                <div>GITHUB</div>
+                <div class="espec">
+                    <a href="https://github.com/Brujahhell" target="_blank">Brujahhell</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="titulo">
+            CARACTERISTICAS
+        </div>
+        <div>
+            <ul>
+                <li>Pensamento Criativo</li>
+                <li>Proativo</li>
+                <li>Trabalho em Equipe</li>
+                <li>Foco em Resultados</li>
+                <li>Flexibilidade e Capacidade de se adaptar</li>
+                <li>Comprometimento</li>
+                <li>Aprendizagem Rapida</li>
+                <li>Perfeccionista</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="titulo">
+            HARD SKILLS
+        </div>
+        <div>
+            <ul>
+                <li>PHP - (Intermediário)</li>
+                <li>Java - (Intermediário)</li>
+                <li>JavaScript - (Intermediário)</li>
+                <li>HTML - (Intermediário)</li>
+                <li>CSS - (Intermediário)</li>
+                <li>Orientação a Objetos - (Intermediário)</li>
+                <li>Banco de Dados - (Intermediário)</li>
+                <li>Impressão 3D - (Avançado)</li>
+                <li>Pacote Office - (Avançado)</li>
+                <li>CorelDraw - (Intermediário)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="info">
+    <h1 class="nome"> BRUNO NETTO SONCIM</h1>
+    <div class="quadros">
+        Sou apaixonado por tecnologia, busco sempre por conhecimento nessa área, indo desde a aventura da Impressão 3D (Impressão, modificação e criação de Projetos)
+        até a parte de Programação, como Back-End, Front-End, Banco de Dados e logo também me aventurando na parte de criação de Aplicativos e Programas.
+        <br> Minha motivação é sempre buscar mais conhecimento.
+    </div>
+    <div class="divisao">
+        ________________________________________________________________________________________________________________________________________________________
+    </div>
+    <div class="titulo2 linha">
+        <img src="CSS/image/experiencia.png" alt="icon experiencia" />
+        <div>
+            <div class="titulo3">EXPERIENCIA PROFISSIONAL</div>
+            <div class="espec">
+
+                <div class="negrito"> Cetest Minas Engenharia e Serviços </div>
+                    <div class="sublinhado"> Empresa Terceirizada de Manutenção. </div>
+                    <div><span class="negrito"> Cargo:</span> Operador de Sistema de Automação.</div>
+                    <div><span class="negrito"> Atividades:</span> Controle de Sistema de refrigeração e monitoramento. </div>
+                    <div><span class="negrito"> Período:</span> 03/01/2005 até 20/06/2005. 5 meses. </div>
+
+                <br>
+
+                <div class="negrito"> Brasilcenter </div>
+                    <div class="sublinhado"> Empresa de Telemarketing. </div>
+                    <div><span class="negrito"> Cargo:</span> Representante de Atendimento. </div>
+                    <div><span class="negrito"> Atividades:</span> Vendas e Cobranças telefônicas dos serviços da NET TV a Cabo. </div>
+                    <div><span class="negrito"> Período:</span> 22/10/2007 até 14/07/2008. 9 meses. </div>
+
+                <br>
+
+                <div class="negrito"> OK SuperAtacado </div>
+                    <div class="sublinhado"> Empresa Alimentícia. </div>
+                    <div><span class="negrito"> Cargo:</span> Auxiliar de RM. </div>
+                    <div><span class="negrito"> Atividades:</span> Remarcação de preços, Recebimento de Mercadorias, Entrada e saída de Notas Fiscais. </div>
+                    <div><span class="negrito"> Período:</span> 28/06/2010 até 25/09/2010. 3 meses. </div>
+
+                <br>
+
+                <div class="negrito"> Pesquise já </div>
+                    <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
+                    <div><span class="negrito"> Cargo:</span> Pesquisador de Preço.</div>
+                    <div><span class="negrito"> Atividades:</span> Pesquisa de Preço e Layout de Produtos.</div>
+                    <div><span class="negrito"> Período:</span> 10/10/2011 até 15/01/2013. 1 ano e 03 meses.</div>
+
+                <br>
+
+                <div class="negrito"> Agilita Promoções e Eventos </div>
+                    <div class="sublinhado"> Empresa Terceirizada TIM. –Temporário </div>
+                    <div><span class="negrito"> Cargo:</span> Caixa. </div>
+                    <div><span class="negrito"> Atividades:</span> Recebimento de Mercadoria, Digitação, Organização de Estoque, Controle de Caixa, Atualização de Vendas, Controle de Planilhas Administrativas. </div>
+                    <div><span class="negrito"> Período:</span> 01/11/2013 até 04/04/2014. 06 meses. (Cobertura de Férias) </div>
+
+                <br>
+
+                <div class="negrito"> Ágil Copiadora </div>
+                    <div><span class="negrito"> Cargo:</span> Atendente </div>
+                    <div><span class="negrito"> Atividades:</span> Atendimento, Criação de canecas personalizadas, vendas de produtos, Abertura e fechamento de caixa </div>
+                    <div><span class="negrito"> Período:</span> 17/02/2018 até 15/06/2019. 1 ano e 4 meses </div>
+
+                <br>
+
+                <div class="negrito"> Kantar IBOPE Média </div>
+                    <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
+                    <div><span class="negrito"> Cargo:</span> Pesquisador de Áudio </div>
+                    <div><span class="negrito"> Atividades:</span> Pesquisa de Audiência de Áudio </div>
+                    <div><span class="negrito"> Período:</span> 19/07/2021 até 25/10/2021. </div>
+
+                <br>
+
+                <div class="negrito"> Live One Trade Marketing LTDA </div>
+                    <div><span class="negrito"> Cargo:</span> Promotor de Vendas Claro - Temporario </div>
+                    <div><span class="negrito"> Atividades:</span> Abordagem, vendas de Plano Claro </div>
+                    <div><span class="negrito"> Período:</span> 07/11/2022 até 29/01/2023. 3 meses </div>
+
+                <br>
+
+                <div class="negrito"> Valid Certificadora Digital </div>
+                    <div class="sublinhado"> Empresa Terceirizada GiGroup. –Temporário </div>
+                    <div><span class="negrito"> Cargo:</span> Operador de Sistema </div>
+                    <div><span class="negrito"> Atividades:</span> Conferência de Dados e Digitalização de RG na Polícia Civil </div>
+                    <div><span class="negrito"> Período:</span> 03/02/2023 até 03/04/2023. 2 meses </div>
+
+                <br>
+
+                <div class="negrito"> Fast Shop </div>
+                    <div><span class="negrito"> Cargo:</span> Vendedor de Tecnologia (Notebooks) </div>
+                    <div><span class="negrito"> Atividades:</span> Venda de Notebboks e acessórios, criação de planilhas, edição de vídeos, suporte na área de manutenção de equipamentos eletrônicos </div>
+                    <div><span class="negrito"> Período:</span> 19/06/2023 até 01/09/2023 </div>
+
+                <br>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="titulo2 linha">
+        <img src="CSS/image/educação.png" alt="icon educacao" />
+        <div>
+            <div class="titulo3">EDUCAÇÃO</div>
+            <div class="espec">
+
+                <br>
+                <div class="negrito sublinhado">CURSOS ONLINE</div>
+                <br>
+                <div class="negrito espaçamento">JAVA</div>
+                    <ul class="espaçamento">
+                        <li class="noli">Lógica de Programação</li>
+                        <li class="noli">Estrutura de Dados e Algoritmos</li>
+                        <li class="noli">IDEs Java</li>
+                        <li class="noli">Variáveis, Tipo de dados e Operações Matemáticas</li>
+                        <li class="noli">Métodos Java</li>
+                        <li class="noli">Lógica Condicional e Controle de Fluxo</li>
+                        <li class="noli">Estruturas de Repetição e Arrays</li>
+                        <li class="noli">Estrutura de Dados</li>
+                        <li class="noli">Pilhas e Filas</li>
+                        <li class="noli">Listas</li>
+                        <li class="noli">Árvores</li>
+                        <li class="noli">Implementações</li>
+                        <li class="noli">Tratamento de Exceções</li>
+                        <li class="noli">Collections Java</li>
+                        <li class="noli">Micro serviços</li>
+                        <li class="noli">Debbuging</li>
+                    </ul>
+
+                <div class="negrito espaçamento">SQL SERVER</div>
+                    <ul class="espaçamento">
+                        <li class="noli">Modelagem de Banco de Dados</li>
+                        <li class="noli">Boas Práticas em bancos relacionados</li>
+                    </ul>
+
+                <div class="negrito espaçamento">PHP</div>
+                    <ul class="espaçamento">
+                        <li class="noli">Formulários com condicionais e exceções</li>
+                        <li class="noli">Funções</li>
+                        <li class="noli">Validação de Dados</li>
+                        <li class="noli">API</li>
+                        <li class="noli">Clean Architecture</li>
+                        <li class="noli">Orientação a Objetos</li>
+                        <li class="noli">Exceções</li>
+                        <li class="noli">Banco de Dados</li>
+                        <li class="noli">Ecossistema e Documentação</li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="titulo2 linha">
+        <img src="CSS/image/certificado.jpg" alt="icon certificado" />
+        <div>
+            <div class="titulo3">CERTIFICADOS</div>
+            <div class="espec">
+
+            </div>
+        </div>
+    </div>
+    <div class="titulo2 linha">
+        <img src="CSS/image/referencia.jpg" alt="icon referencia" />
+        <div>
+            <div class="titulo3">REFERÊNCIAS</div>
+            <div class="espec">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+

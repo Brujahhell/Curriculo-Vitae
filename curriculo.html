@@ -1,13 +1,11 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>CURRICULUM VITAE</title>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css" media="screen" />
+    <title>CURRICULUM VITAE</title>
 </head>
 <body class="container">
 <div class="lista">
@@ -19,25 +17,25 @@
             DADOS PESSOAIS
         </div>
         <div class="titulo2 linha">
-            <img src="https://i.imgur.com/DmBq2TT.png" alt="icon name" />
+            <img src="CSS/image/homem-usuario.png" alt="icon name" />
             <div>
                 <div>Nome</div>
-                <div class="espec">
+                <div class="espec colorname">
                     Bruno Netto Soncim
                 </div>
             </div>
         </div>
         <div class="titulo2 linha">
-            <img src="https://i.imgur.com/cVedMAj.png" alt="icon whatsapp" />
+            <img src="CSS/image/whatsapp.png" alt="icon whatsapp" />
             <div>
                 <div>Whatsapp</div>
                 <div class="espec">
-                    <a href="https://wa.me/5527981116969" target="_blank">(27)98111-6969</a>
+                    <a href="https://wa.me/5527981116969" target="_blank" class="colorname">(27)98111-6969</a>
                 </div>
             </div>
         </div>
         <div class="titulo2 linha">
-            <img src="https://i.imgur.com/ypEW4GS.png" alt="icon email" />
+            <img src="CSS/image/o-email.png" alt="icon email" />
             <div>
                 <div>E-mail</div>
                 <div class="espec">
@@ -46,7 +44,7 @@
             </div>
         </div>
         <div class="titulo2 linha">
-            <img src="https://i.imgur.com/8OIddj5.png" alt="icon linkedin" />
+            <img src="CSS/image/linkedin.png" alt="icon linkedin" />
             <div>
                 <div>Linkedin</div>
                 <div class="espec">
@@ -55,7 +53,7 @@
             </div>
         </div>
         <div class="titulo2 linha">
-            <img style="width: 5%" src="https://i.imgur.com/1m1vuxa.png" alt="icon github" />
+            <img style="width: 5%" src="CSS/image/github.png" alt="icon github" />
             <div>
                 <div>GITHUB</div>
                 <div class="espec">
@@ -70,7 +68,7 @@
             CARACTERISTICAS
         </div>
         <div>
-            <ul>
+            <ul class="colorname">
                 <li>Pensamento Criativo</li>
                 <li>Proativo</li>
                 <li>Trabalho em Equipe</li>
@@ -87,7 +85,7 @@
             HARD SKILLS
         </div>
         <div>
-            <ul>
+            <ul class="colorname">
                 <li>PHP - (Intermediário)</li>
                 <li>Java - (Intermediário)</li>
                 <li>JavaScript - (Intermediário)</li>
@@ -117,88 +115,129 @@
         <div>
             <div class="titulo3">EXPERIENCIA PROFISSIONAL</div>
             <div class="espec">
+                <br>
 
-                <div class="negrito"> Cetest Minas Engenharia e Serviços </div>
-                    <div class="sublinhado"> Empresa Terceirizada de Manutenção. </div>
-                    <div><span class="negrito"> Cargo:</span> Operador de Sistema de Automação.</div>
-                    <div><span class="negrito"> Atividades:</span> Controle de Sistema de refrigeração e monitoramento. </div>
-                    <div><span class="negrito"> Período:</span> 03/01/2005 até 20/06/2005. 5 meses. </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Cetest')"> Cetest Minas Engenharia e Serviços </span>
+                    <div id="Cetest" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Terceirizada de Manutenção. </div>
+                        <div><span class="negrito"> Cargo:</span> Operador de Sistema de Automação.</div>
+                        <div><span class="negrito"> Atividades:</span> Controle de Sistema de refrigeração e monitoramento. </div>
+                        <div><span class="negrito"> Período:</span> 03/01/2005 até 20/06/2005. 5 meses. </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Brasilcenter </div>
-                    <div class="sublinhado"> Empresa de Telemarketing. </div>
-                    <div><span class="negrito"> Cargo:</span> Representante de Atendimento. </div>
-                    <div><span class="negrito"> Atividades:</span> Vendas e Cobranças telefônicas dos serviços da NET TV a Cabo. </div>
-                    <div><span class="negrito"> Período:</span> 22/10/2007 até 14/07/2008. 9 meses. </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Brasilcenter')"> Brasilcenter </span>
+                    <div id="Brasilcenter" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa de Telemarketing. </div>
+                        <div><span class="negrito"> Cargo:</span> Representante de Atendimento. </div>
+                        <div><span class="negrito"> Atividades:</span> Vendas e Cobranças telefônicas dos serviços da NET TV a Cabo. </div>
+                        <div><span class="negrito"> Período:</span> 22/10/2007 até 14/07/2008. 9 meses. </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> OK SuperAtacado </div>
-                    <div class="sublinhado"> Empresa Alimentícia. </div>
-                    <div><span class="negrito"> Cargo:</span> Auxiliar de RM. </div>
-                    <div><span class="negrito"> Atividades:</span> Remarcação de preços, Recebimento de Mercadorias, Entrada e saída de Notas Fiscais. </div>
-                    <div><span class="negrito"> Período:</span> 28/06/2010 até 25/09/2010. 3 meses. </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('OK')"> OK SuperAtacado </span>
+                    <div id="OK" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Alimentícia. </div>
+                        <div><span class="negrito"> Cargo:</span> Auxiliar de RM. </div>
+                        <div><span class="negrito"> Atividades:</span> Remarcação de preços, Recebimento de Mercadorias, Entrada e saída de Notas Fiscais. </div>
+                        <div><span class="negrito"> Período:</span> 28/06/2010 até 25/09/2010. 3 meses. </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Pesquise já </div>
-                    <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
-                    <div><span class="negrito"> Cargo:</span> Pesquisador de Preço.</div>
-                    <div><span class="negrito"> Atividades:</span> Pesquisa de Preço e Layout de Produtos.</div>
-                    <div><span class="negrito"> Período:</span> 10/10/2011 até 15/01/2013. 1 ano e 03 meses.</div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Pesquise')"> Pesquise já </span>
+                    <div id="Pesquise" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
+                        <div><span class="negrito"> Cargo:</span> Pesquisador de Preço.</div>
+                        <div><span class="negrito"> Atividades:</span> Pesquisa de Preço e Layout de Produtos.</div>
+                        <div><span class="negrito"> Período:</span> 10/10/2011 até 15/01/2013. 1 ano e 03 meses.</div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Agilita Promoções e Eventos </div>
-                    <div class="sublinhado"> Empresa Terceirizada TIM. –Temporário </div>
-                    <div><span class="negrito"> Cargo:</span> Caixa. </div>
-                    <div><span class="negrito"> Atividades:</span> Recebimento de Mercadoria, Digitação, Organização de Estoque, Controle de Caixa, Atualização de Vendas, Controle de Planilhas Administrativas. </div>
-                    <div><span class="negrito"> Período:</span> 01/11/2013 até 04/04/2014. 06 meses. (Cobertura de Férias) </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Agilita')"> Agilita Promoções e Eventos </span>
+                    <div id="Agilita" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Terceirizada TIM. –Temporário </div>
+                        <div><span class="negrito"> Cargo:</span> Caixa. </div>
+                        <div><span class="negrito"> Atividades:</span> Recebimento de Mercadoria, Digitação, Organização de Estoque, Controle de Caixa, Atualização de Vendas, Controle de Planilhas Administrativas. </div>
+                        <div><span class="negrito"> Período:</span> 01/11/2013 até 04/04/2014. 06 meses. (Cobertura de Férias) </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Ágil Copiadora </div>
-                    <div><span class="negrito"> Cargo:</span> Atendente </div>
-                    <div><span class="negrito"> Atividades:</span> Atendimento, Criação de canecas personalizadas, vendas de produtos, Abertura e fechamento de caixa </div>
-                    <div><span class="negrito"> Período:</span> 17/02/2018 até 15/06/2019. 1 ano e 4 meses </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Copiadora')"> Ágil Copiadora </span>
+                    <div id="Copiadora" class="conteudoEmpresa">
+                        <div><span class="negrito"> Cargo:</span> Atendente </div>
+                        <div><span class="negrito"> Atividades:</span> Atendimento, Criação de canecas personalizadas, vendas de produtos, Abertura e fechamento de caixa </div>
+                        <div><span class="negrito"> Período:</span> 17/02/2018 até 15/06/2019. 1 ano e 4 meses </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Kantar IBOPE Média </div>
-                    <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
-                    <div><span class="negrito"> Cargo:</span> Pesquisador de Áudio </div>
-                    <div><span class="negrito"> Atividades:</span> Pesquisa de Audiência de Áudio </div>
-                    <div><span class="negrito"> Período:</span> 19/07/2021 até 25/10/2021. </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('IBOPE')"> Kantar IBOPE Média </span>
+                    <div id="IBOPE" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
+                        <div><span class="negrito"> Cargo:</span> Pesquisador de Áudio </div>
+                        <div><span class="negrito"> Atividades:</span> Pesquisa de Audiência de Áudio </div>
+                        <div><span class="negrito"> Período:</span> 19/07/2021 até 25/10/2021. </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Live One Trade Marketing LTDA </div>
-                    <div><span class="negrito"> Cargo:</span> Promotor de Vendas Claro - Temporario </div>
-                    <div><span class="negrito"> Atividades:</span> Abordagem, vendas de Plano Claro </div>
-                    <div><span class="negrito"> Período:</span> 07/11/2022 até 29/01/2023. 3 meses </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Live')"> Live One Trade Marketing LTDA </span>
+                    <div id="Live" class="conteudoEmpresa">
+                        <div><span class="negrito"> Cargo:</span> Promotor de Vendas Claro - Temporario </div>
+                        <div><span class="negrito"> Atividades:</span> Abordagem, vendas de Plano Claro </div>
+                        <div><span class="negrito"> Período:</span> 07/11/2022 até 29/01/2023. 3 meses </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Valid Certificadora Digital </div>
-                    <div class="sublinhado"> Empresa Terceirizada GiGroup. –Temporário </div>
-                    <div><span class="negrito"> Cargo:</span> Operador de Sistema </div>
-                    <div><span class="negrito"> Atividades:</span> Conferência de Dados e Digitalização de RG na Polícia Civil </div>
-                    <div><span class="negrito"> Período:</span> 03/02/2023 até 03/04/2023. 2 meses </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Valid')"> Valid Certificadora Digital </span>
+                    <div id="Valid" class="conteudoEmpresa">
+                        <div class="sublinhado"> Empresa Terceirizada GiGroup. –Temporário </div>
+                        <div><span class="negrito"> Cargo:</span> Operador de Sistema </div>
+                        <div><span class="negrito"> Atividades:</span> Conferência de Dados e Digitalização de RG na Polícia Civil </div>
+                        <div><span class="negrito"> Período:</span> 03/02/2023 até 03/04/2023. 2 meses </div>
+                    </div>
+                </div>
 
                 <br>
 
-                <div class="negrito"> Fast Shop </div>
-                    <div><span class="negrito"> Cargo:</span> Vendedor de Tecnologia (Notebooks) </div>
-                    <div><span class="negrito"> Atividades:</span> Venda de Notebboks e acessórios, criação de planilhas, edição de vídeos, suporte na área de manutenção de equipamentos eletrônicos </div>
-                    <div><span class="negrito"> Período:</span> 19/06/2023 até 01/09/2023 </div>
+                <div>
+                    <span class="negrito empresa" onclick="mostrarConteudo('fastshop')"> Fast Shop </span>
+                    <div id="fastshop" class="conteudoEmpresa">
+                        <div><span class="negrito"> Cargo:</span> Vendedor de Tecnologia (Notebooks) </div>
+                        <div><span class="negrito"> Atividades:</span> Venda de Notebboks e acessórios, criação de planilhas, edição de vídeos, suporte na área de manutenção de equipamentos eletrônicos </div>
+                        <div><span class="negrito"> Período:</span> 19/06/2023 até 01/09/2023 </div>
+                    </div>
+                </div>
 
                 <br>
-
 
             </div>
         </div>
     </div>
+
     <div class="titulo2 linha">
         <img src="CSS/image/educação.png" alt="icon educacao" />
         <div>
@@ -272,5 +311,11 @@
 
 </body>
 </html>
+<script>
+    function mostrarConteudo(id) {
+        var conteudo = document.getElementById(id);
+        conteudo.style.display = conteudo.style.display === "none" ? "block" : "none";
+    }
+</script>
 
 

@@ -118,7 +118,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Cetest')"> Cetest Minas Engenharia e Serviços </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Cetest', this)"> Cetest Minas Engenharia e Serviços </span>
                     <div id="Cetest" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Terceirizada de Manutenção. </div>
                         <div><span class="negrito"> Cargo:</span> Operador de Sistema de Automação.</div>
@@ -130,7 +130,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Brasilcenter')"> Brasilcenter </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Brasilcenter', this)"> Brasilcenter </span>
                     <div id="Brasilcenter" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa de Telemarketing. </div>
                         <div><span class="negrito"> Cargo:</span> Representante de Atendimento. </div>
@@ -142,7 +142,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('OK')"> OK SuperAtacado </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('OK', this)"> OK SuperAtacado </span>
                     <div id="OK" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Alimentícia. </div>
                         <div><span class="negrito"> Cargo:</span> Auxiliar de RM. </div>
@@ -154,7 +154,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Pesquise')"> Pesquise já </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Pesquise', this)"> Pesquise já </span>
                     <div id="Pesquise" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
                         <div><span class="negrito"> Cargo:</span> Pesquisador de Preço.</div>
@@ -166,7 +166,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Agilita')"> Agilita Promoções e Eventos </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Agilita', this)"> Agilita Promoções e Eventos </span>
                     <div id="Agilita" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Terceirizada TIM. –Temporário </div>
                         <div><span class="negrito"> Cargo:</span> Caixa. </div>
@@ -178,7 +178,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Copiadora')"> Ágil Copiadora </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Copiadora', this)"> Ágil Copiadora </span>
                     <div id="Copiadora" class="conteudoEmpresa">
                         <div><span class="negrito"> Cargo:</span> Atendente </div>
                         <div><span class="negrito"> Atividades:</span> Atendimento, Criação de canecas personalizadas, vendas de produtos, Abertura e fechamento de caixa </div>
@@ -189,7 +189,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('IBOPE')"> Kantar IBOPE Média </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('IBOPE', this)"> Kantar IBOPE Média </span>
                     <div id="IBOPE" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Pesquisa e Marketing. </div>
                         <div><span class="negrito"> Cargo:</span> Pesquisador de Áudio </div>
@@ -201,7 +201,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Live')"> Live One Trade Marketing LTDA </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Live', this)"> Live One Trade Marketing LTDA </span>
                     <div id="Live" class="conteudoEmpresa">
                         <div><span class="negrito"> Cargo:</span> Promotor de Vendas Claro - Temporario </div>
                         <div><span class="negrito"> Atividades:</span> Abordagem, vendas de Plano Claro </div>
@@ -212,7 +212,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('Valid')"> Valid Certificadora Digital </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('Valid', this)"> Valid Certificadora Digital </span>
                     <div id="Valid" class="conteudoEmpresa">
                         <div class="sublinhado"> Empresa Terceirizada GiGroup. –Temporário </div>
                         <div><span class="negrito"> Cargo:</span> Operador de Sistema </div>
@@ -224,7 +224,7 @@
                 <br>
 
                 <div>
-                    <span class="negrito empresa" onclick="mostrarConteudo('fastshop')"> Fast Shop </span>
+                    <span class="negrito empresa" onclick="mostrarConteudo('fastshop', this)"> Fast Shop </span>
                     <div id="fastshop" class="conteudoEmpresa">
                         <div><span class="negrito"> Cargo:</span> Vendedor de Tecnologia (Notebooks) </div>
                         <div><span class="negrito"> Atividades:</span> Venda de Notebboks e acessórios, criação de planilhas, edição de vídeos, suporte na área de manutenção de equipamentos eletrônicos </div>
@@ -345,10 +345,17 @@
 </body>
 </html>
 <script>
-    function mostrarConteudo(id) {
-        var conteudo = document.getElementById(id);
-        conteudo.style.display = conteudo.style.display === "none" ? "block" : "none";
-    }
-</script>
+        function mostrarConteudo(id, elemento) {
+            var conteudo = document.getElementById(id);
+
+            if (conteudo.style.display === "none" || conteudo.style.display === "") {
+                conteudo.style.display = "block";
+                elemento.innerHTML = "v " + elemento.innerHTML.slice(2); // Muda para "v"
+            } else {
+                conteudo.style.display = "none";
+                elemento.innerHTML = "> " + elemento.innerHTML.slice(2); // Muda para ">"
+            }
+        }
+    </script>
 
 
